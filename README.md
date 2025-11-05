@@ -36,3 +36,86 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+🧠 Features
+
+✅ Dynamic column management (show/hide or add new columns)
+✅ Inline row editing (name, email, age, department, etc.)
+✅ CSV import & export using PapaParse + FileSaver.js
+✅ Delete confirmation dialog with Material UI
+✅ Dark/Light theme toggle
+✅ Fully responsive layout
+✅ State management using Redux Toolkit
+✅ TypeScript-based clean, modular architecture
+
+🧰 Tech Stack
+Layer	Tools Used
+Frontend	Next.js 16 (React 19 + TypeScript)
+UI Library	Material UI (MUI v6)
+State Management	Redux Toolkit
+CSV Handling	PapaParse, FileSaver.js
+Icons	Lucide React
+Styling	Tailwind CSS + MUI Themes
+🖼️ Screenshots
+🔹 Light Mode
+
+🔹 Dark Mode
+
+🧩 Folder Structure
+dynamic-data-table/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│
+├── components/
+│   ├── InlineEditRow.tsx
+│   ├── ManageColumnsModal.tsx
+│   ├── ImportExportButtons.tsx
+│
+├── store/
+│   ├── index.ts
+│   ├── tableSlice.ts
+│
+├── public/
+│   ├── icons, svg files
+│
+├── package.json
+├── tsconfig.json
+├── README.md
+
+💡 How It Works
+
+The table is powered by Redux state — all data and column visibility are stored in a slice.
+
+Users can add, edit, or delete rows dynamically.
+
+CSV import merges data; export downloads current table view.
+
+UI supports both dark/light mode toggling for accessibility.
+
+👩‍💻 Author
+
+Radhika Kakad
+📧 radhikakakad03@gmail.com
+
+💼 GitHub Profile
+
+🏁 Acknowledgment
+
+This project was developed as part of the Frontend Internship Assignment for
+Surefy Technologies Pvt. Ltd. (Submission Date: 5th Nov 2025)
+
+
+---
+
+### ✅ Final Steps Before Submission
+
+1. Copy the above content → paste into your **`README.md`** file.  
+2. Save it.  
+3. Run these commands in VS Code terminal:  
+   ```bash
+   git add README.md
+   git commit -m "Added professional README for internship submission"
+   git push
