@@ -1,18 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 Dynamic Data Table Manager  
+**Surefy Technologies Internship Assignment — Built by Radhika Kakad**
 
-## Getting Started
+A modern, responsive data table application built using **Next.js**, **TypeScript**, **Redux Toolkit**, and **Material UI**.  
+It allows users to dynamically manage columns, edit rows inline, import/export data via CSV, and switch between dark/light themes — all in a sleek UI.
 
-First, run the development server:
+---
+
+## 🚀 **Live Preview**
+You can run the project locally using the steps below 👇  
 
 ```bash
+git clone https://github.com/Radhikakakad28/dynamic-data-table.git
+cd dynamic-data-table
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
