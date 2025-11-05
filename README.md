@@ -17,6 +17,14 @@ npm run dev
 Then open your browser and visit:
 👉 http://localhost:3000
 
+
+---
+
+✅ When you view your README on **GitHub**,  
+`http://localhost:3000` will appear **blue and clickable** (like a real link).  
+
+Would you like me to make your entire README section “Run Locally” perfectly formatted (with this style integrated)?
+
 🧠 Features
 ✅ Dynamic column management (show/hide or add new columns)
 ✅ Inline row editing (Name, Email, Age, Department, etc.)
