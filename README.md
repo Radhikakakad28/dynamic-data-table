@@ -21,9 +21,13 @@ Then open your browser and visit:
 ---
 
 ✅ When you view your README on **GitHub**,  
-`http://localhost:3000` will appear **blue and clickable** (like a real link).  
+`http://localhost:3000` will appear **blue and clickable** (like a real link).
 
-Would you like me to make your entire README section “Run Locally” perfectly formatted (with this style integrated)?
+and  
+👉 [http://localhost:3000](http://localhost:3000)
+
+Once you save and push this version, your `http://localhost:3000` will appear in **blue and clickable** on GitHub 🎯  
+  
 
 🧠 Features
 ✅ Dynamic column management (show/hide or add new columns)
